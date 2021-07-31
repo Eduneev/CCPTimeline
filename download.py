@@ -42,7 +42,7 @@ def download(client, output):
         per_page = 100
         all_videos = []
         try:
-            for i in range(1,41):
+            for i in range(1,50):
                 url = "/me/videos?per_page="+str(per_page)+"&page="+str(i)
                 data = client.get(url, params={"fields": "parent_folder.name,parent_folder.metadata.connections.items.total,name,duration"})
                 #data = client.get(url)

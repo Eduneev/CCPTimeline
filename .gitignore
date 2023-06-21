@@ -2,3 +2,6 @@ config.json
 *.csv
 .ipynb_checkpoints
 *.config
+output
+.DS_STORE
+*.txt
